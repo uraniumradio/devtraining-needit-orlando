@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="percent_complete" table="x_58872_needit_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="target" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>target_field=percent_complete_target,target_threshold_colors=0:INDIANRED;33:DARKORANGE;66:GOLD;90:LIGHTYELLOW,target_field=target</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Percent complete</column_label>
+        <column_label>Target</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>percent_complete</element>
+        <element>target</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">percent_complete</internal_type>
+        <internal_type display_value="Decimal">decimal</internal_type>
         <mandatory>false</mandatory>
-        <max_length>15</max_length>
+        <max_length>20</max_length>
         <name>x_58872_needit_needit</name>
         <next_element/>
         <primary>false</primary>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-28 05:36:23</sys_created_on>
-        <sys_id>a07285952f56dc5000a35ff62799b6cc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Percent complete</sys_name>
+        <sys_created_on>2020-07-28 06:21:52</sys_created_on>
+        <sys_id>ba3d015d2f56dc5000a35ff62799b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_percent_complete</sys_update_name>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_target</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-28 06:37:27</sys_updated_on>
+        <sys_updated_on>2020-07-28 06:21:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
